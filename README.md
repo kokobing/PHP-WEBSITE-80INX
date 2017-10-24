@@ -25,12 +25,12 @@ PHP-WEBSITE-80INX 一个完整的婚纱摄影网站，包括前台后台，因�
 	后台文件路径 /www/admin/inc/config_admin.php中需指定测试域名的字符串，如下  
 	$siteurl="http://www.website.com";
 
- * 安装盘：\AppServ\Apache2.2\conf\httpd.conf
+ * 安装盘：\AppServ\Apache2.2\conf\httpd.conf  
  * apache 禁止访问目录,httpd.conf中找到如下行信息，去除Indexes  
 	Options `Indexes` FollowSymLinks Includes ExecCGI ------- httpd.conf去除 Indexes   
 	
- * httpd.conf中找到如下行，去掉#，开启VHOST虚拟主机 
-	Include conf/extra/httpd-vhosts.conf    
+ * httpd.conf中找到如下行，去掉#，开启VHOST虚拟主机  
+		`#`Include conf/extra/httpd-vhosts.conf    
    
 运行设置
 =========================== 
