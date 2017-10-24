@@ -35,7 +35,7 @@ PHP-WEBSITE-80INX 一个完整的婚纱摄影网站，包括前台后台，因�
 运行设置
 =========================== 
  
- *  安装盘：\AppServ\Apache2.2\conf\extra\httpd-vhosts.conf 设定虚拟主机信息,追加
+ *  安装盘：\AppServ\Apache2.2\conf\extra\httpd-vhosts.conf 设定虚拟主机信息,追加如下
  
 	\<VirtualHost *:80\>  
 		ServerAdmin webmaster@dummy-host2.x  
@@ -46,7 +46,7 @@ PHP-WEBSITE-80INX 一个完整的婚纱摄影网站，包括前台后台，因�
 	\</VirtualHost\>  
 	
 
- *  C:\Windows\System32\drivers\etc\hosts    域名重定向 追加下行  
+ *  C:\Windows\System32\drivers\etc\hosts    域名重定向，追加如下  
     127.0.0.1       www.website.com
 
  *  重启APACHE后，在浏览器中运行 http://www.website.com
