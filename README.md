@@ -58,4 +58,5 @@ PHP-WEBSITE-80INX 一个完整的婚纱摄影网站，包括前台后台，因�
 |E-mail|495105@qq.com
 
 ****
+![](https://github.com/Kokolpb/PHP-WEBSITE-80INX/blob/master/home.jpg)  
 
