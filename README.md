@@ -7,7 +7,8 @@ PHP-WEBSITE-80INX 一个完整的婚纱摄影网站，包括前台后台，因�
 站点未用任何MVC框架，非常适合PHP初学者入门。  
 
 
-Integrated environment && Download link 运行环境和下载地址 
+Integrated environment && Download link  
+运行环境和下载地址 
 ===========================
  * Integrated environment 集成环境 APPSERV appserv-win32-2.5.10.exe
  * Download link 下载地址：http://pan.baidu.com/s/1sldpyXZ  密码:94ig
