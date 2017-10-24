@@ -15,39 +15,41 @@ Integrated environment && Download link
 
 How to install 安装调试
 ===========================
- * copy www in your website dir 拷贝www到网站目录 例如：C:\AppServ\www\website\www  
+ * copy www in your website dir  
+ 	拷贝www到网站目录 例如：C:\AppServ\www\website\www  
 
- * Import database SQL file ,phpmyadmin new create database 'website' and set utf8_general_ci 
-   导入数据库SQL文件 PHPMYADMIN中新建website数据库，并导入website.sql，注意新建数据库排序规则为utf8_general_ci 
+ * Import database SQL file ,phpmyadmin new create database 'website' and set utf8_general_ci  
+	   导入数据库SQL文件 PHPMYADMIN中新建website数据库，并导入website.sql，注意新建数据库排序规则为utf8_general_ci 
  
- * foreground page and admin page both set database root and password   
-   配置前台和后台数据库连接信息  
+ * foreground page and admin page both set database root and password  
+	   配置前台和后台数据库连接信息  
 	 foreground page file path 前台文件路径 /www/inc/config.php  
 	 admin page file path      后台文件路径 /www/admin/inc/config_admin.php  
  
- 	`$db_hostname="localhost"; //服务器  `
-	`$db_username="root"; //用户名  `
-	`$db_password="123456"; //密码  `
-	`$db_database="website"; //数据库  `
+ 	`$db_hostname="localhost"; //服务器  `  
+	`$db_username="root"; //用户名  `  
+	`$db_password="123456"; //密码  `  
+	`$db_database="website"; //数据库  `  
 	
 	后台文件路径 /www/admin/inc/config_admin.php中需指定测试域名的字符串，如下  
 	`$siteurl="http://www.website.com";`
 
- * Found you appserv apache httpd.conf path 安装盘：\AppServ\Apache2.2\conf\httpd.conf  
+ * Found you appserv apache httpd.conf path  
+ 	安装盘：\AppServ\Apache2.2\conf\httpd.conf  
  
  * Modifly apache httpd.conf Found 'Options Indexes FollowSymLinks Includes ExecCGI' and remove 'Indexes'  
-   禁止访问目录,httpd.conf中找到如下行信息，去除Indexes  
-   Options `Indexes` FollowSymLinks Includes ExecCGI ------- httpd.conf去除 Indexes   
+	   禁止访问目录,httpd.conf中找到如下行信息，去除Indexes  
+	   Options `Indexes` FollowSymLinks Includes ExecCGI ------- httpd.conf去除 Indexes  
 	
- * Modifly apache httpd.conf Found '# Include conf/extra/httpd-vhosts.conf  ' and remove '#'  
-   httpd.conf 中找到'# Include conf/extra/httpd-vhosts.conf'，去掉#，开启VHOST虚拟主机  
+ * Modifly apache httpd.conf Found '# Include conf/extra/httpd-vhosts.conf  ' and remove '#'  
+	   httpd.conf 中找到'# Include conf/extra/httpd-vhosts.conf'，去掉#，开启VHOST虚拟主机  
        
    
 How to run 运行设置
 =========================== 
  
- * You appserv httpd-vhosts.conf set
-   安装盘：\AppServ\Apache2.2\conf\extra\httpd-vhosts.conf 设定虚拟主机信息,追加如下
+ * You appserv httpd-vhosts.conf set  
+	   安装盘：\AppServ\Apache2.2\conf\extra\httpd-vhosts.conf 设定虚拟主机信息,追加如下  
  
 	`\<VirtualHost *:80\>  
 		ServerAdmin webmaster@dummy-host2.x  
