@@ -7,24 +7,20 @@ PHP-WEBSITE-80INX 一个完整的婚纱摄影网站，包括前台后台，因�
 站点未用任何MVC框架，非常适合PHP初学者入门。  
 
 
-Integrated environment && Download link  
 运行环境和下载地址 
 ===========================
- * Integrated environment 集成环境 APPSERV appserv-win32-2.5.10.exe
+ * 集成环境 APPSERV appserv-win32-2.5.10.exe
  * Download link 下载地址：http://pan.baidu.com/s/1sldpyXZ  密码:94ig
 
-How to install 安装调试
+安装调试
 ===========================
- * copy www in your website dir  
- 	拷贝www到网站目录 例如：C:\AppServ\www\website\www  
+ * 拷贝www到网站目录 例如：C:\AppServ\www\website\www  
 
- * Import database SQL file ,phpmyadmin new create database 'website' and set utf8_general_ci  
-	   导入数据库SQL文件 PHPMYADMIN中新建website数据库，并导入website.sql，注意新建数据库排序规则为utf8_general_ci 
+ * 导入数据库SQL文件 PHPMYADMIN中新建website数据库，并导入website.sql，注意新建数据库排序规则为utf8_general_ci 
  
- * foreground page and admin page both set database root and password  
-	   配置前台和后台数据库连接信息  
-	 foreground page file path 前台文件路径 /www/inc/config.php  
-	 admin page file path      后台文件路径 /www/admin/inc/config_admin.php  
+ * 配置前台和后台数据库连接信息  
+	 前台文件路径 /www/inc/config.php  
+	 后台文件路径 /www/admin/inc/config_admin.php  
  
  	`$db_hostname="localhost"; //服务器  `  
 	`$db_username="root"; //用户名  `  
@@ -34,37 +30,34 @@ How to install 安装调试
 	后台文件路径 /www/admin/inc/config_admin.php中需指定测试域名的字符串，如下  
 	`$siteurl="http://www.website.com";`
 
- * Found you appserv apache httpd.conf path  
- 	安装盘：\AppServ\Apache2.2\conf\httpd.conf  
+ *安装盘：\AppServ\Apache2.2\conf\httpd.conf  
  
- * Modifly apache httpd.conf Found 'Options Indexes FollowSymLinks Includes ExecCGI' and remove 'Indexes'  
-	   禁止访问目录,httpd.conf中找到如下行信息，去除Indexes  
+ *禁止访问目录,httpd.conf中找到如下行信息，去除Indexes  
 	   Options `Indexes` FollowSymLinks Includes ExecCGI ------- httpd.conf去除 Indexes  
 	
- * Modifly apache httpd.conf Found '# Include conf/extra/httpd-vhosts.conf  ' and remove '#'  
-	   httpd.conf 中找到'# Include conf/extra/httpd-vhosts.conf'，去掉#，开启VHOST虚拟主机  
+ * httpd.conf 中找到'# Include conf/extra/httpd-vhosts.conf'，去掉#，开启VHOST虚拟主机  
        
    
-How to run 运行设置
+运行设置
 =========================== 
  
  * You appserv httpd-vhosts.conf set  
 	   安装盘：\AppServ\Apache2.2\conf\extra\httpd-vhosts.conf 设定虚拟主机信息,追加如下  
  
-	`\<VirtualHost *:80\>  
-		ServerAdmin webmaster@dummy-host2.x  
-		DocumentRoot "C:\AppServ\www\website\www"  
-		ServerName www.website.com  
-		ErrorLog "logs/dummy-host2.x-error.log"  
-		CustomLog "logs/dummy-host2.x-access.log" common  
-	\</VirtualHost\>  `
+	`\<VirtualHost *:80\> `   
+		`ServerAdmin webmaster@dummy-host2.x  `  
+		`DocumentRoot "C:\AppServ\www\website\www"  `  
+		`ServerName www.website.com  `  
+		`ErrorLog "logs/dummy-host2.x-error.log"  `  
+		`CustomLog "logs/dummy-host2.x-access.log" common  `  
+	`\</VirtualHost\>  `  
 	
 
- * Modifly  C:\Windows\System32\drivers\etc\hosts    域名重定向，追加如下  
+ * 域名重定向，追加如下  
     127.0.0.1       www.website.com
 
- * Reboot APACHE and browse test domain 重启APACHE后，在浏览器中运行 http://www.website.com
- * Website admin url and user & password 后台地址： http://www.website.com/admin/   User:admin  Password:admin888 
+ * 重启APACHE后，在浏览器中运行 http://www.website.com
+ * 后台地址： http://www.website.com/admin/   User:admin  Password:admin888 
 ****
 	
 |Author|Koko Lv|
