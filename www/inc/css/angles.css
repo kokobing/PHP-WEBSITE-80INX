@@ -1,0 +1,57 @@
+.ui-dk-slider{
+	height:450px;
+	border-radius:8px;
+}
+.angles-wrapper{
+	width:960px;
+	margin:0 auto;
+}
+.title-angles{
+	position:relative;
+	height:51px;
+	margin-bottom:10px;
+	zoom:1;
+}
+.title-angles s{
+	background:url(/inc/pics/angeles-sprites.png) 0 0 no-repeat;
+}
+
+.ui-angles-cnt{
+	float:left;
+	margin-right:36px;
+}
+.ui-angles-detail{
+	float:left;
+}
+
+.ui-angles-detail,
+.ui-angles-detail-top,
+.ui-angles-detail-btm{
+	width:268px;
+	min-height:450px;
+	_height:450px;
+	background:url(/inc/pics/angeles-sprites.png) 0 0 no-repeat;
+}
+.ui-angles-detail{
+	background-position:-1247px 0;
+	background-repeat:repeat-y;
+}
+.ui-angles-detail-top{
+	background-position:-969px 0;
+}
+.ui-angles-detail-btm{
+	background-position:-1525px bottom;
+}
+
+.angeles-content{
+	padding:35px 32px;
+}
+
+.ui-angles-item{
+	margin-bottom:40px;
+	padding-bottom:40px;
+	background:url(/inc/pics/bg-wave-alpha.png) 0 bottom no-repeat;
+}
+.ui-page{
+	margin-bottom:20px;
+}

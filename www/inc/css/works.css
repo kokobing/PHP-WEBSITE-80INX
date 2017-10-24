@@ -1,0 +1,107 @@
+
+
+
+.txt-works{
+	position:relative;
+	width:968px;
+	height:62px;
+	margin:0 auto;
+	zoom:1;
+}
+.txt-works s{
+	background:url(/inc/pics/txt-works-of-80inx.png) 50% 0 no-repeat;
+}
+.ui-works-hot{
+	width:980px;
+	margin:0 auto 50px;
+	overflow:hidden;
+}
+.ui-works-hot .ui-list{
+	width:1100px;
+}
+.ui-works-hot .ui-list-item{
+	width:478px;
+	height:206px;
+	margin-right:24px;
+}
+.ui-works-hot .ui-img{
+	width:100%;
+	height:100%;
+}
+
+/*  */
+.ui-gallery{
+	width:980px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.ui-gallery .ui-list{
+	width:1100px;
+	overflow:hidden;
+	margin-bottom:30px;
+}
+.ui-gallery .ui-list-item{
+	position:relative;
+	width:227px;
+	*height:336px;
+	margin-right:23px;
+	margin-top:31px;
+	zoom:1;
+	*overflow:hidden;
+}
+.ui-gallery .ui-img{
+	width:100%;
+	height:306px;
+	margin-bottom:28px;
+}
+
+.ui-gallery .ui-link{
+	position:relative;
+	zoom:1;
+}
+.ui-works-love-it{
+	position:absolute;
+	bottom:0;
+	left:70px;
+	width:78px;
+	height:18px;
+	line-height:18px;
+	text-align:center;
+}
+.ui-works-love-it s{
+	background:url(../images/works-sprites.png) 0 -103px no-repeat;
+	cursor:pointer;
+}
+.ui-works-love-it:hover s{
+	background-position:0 -130px;
+}
+
+.ui-gallery .ui-link:hover i{
+	background-position:0 -130px;
+}
+.ui-gallery .ui-img-txt{
+	background:none;
+	font-weight:600;
+}
+.ui-gallery .ui-img-group{
+	position:absolute;
+	left:0;
+	width:100%;
+	bottom:30px;
+	height:30px;/* 63px */
+	overflow:hidden;
+	display:block;
+	padding-bottom:10px;
+	text-align:center;
+	color:#333;
+	cursor:pointer;
+	background:url(/inc/pics/bg-alpha-24.png) 0 0 repeat;
+	_background:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod="scale", src="images/bg-alpha-24.png");
+	zoom:1;
+}
+
+.ui-gotop-wrapper{
+	margin:95px 0;
+	text-align:center;
+}

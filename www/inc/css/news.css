@@ -1,0 +1,231 @@
+.news-wrapper{
+	width:980px;
+	margin:0 auto;
+}
+.ui-sliders{
+	width:100%;
+	margin-bottom:45px;
+	overflow:hidden;
+	height:206px;
+}
+.ui-news-slider dl{display:none}
+.ui-news-slider .container{
+	overflow:hidden;
+	width:478px;
+	height:206px;
+}
+.ui-sliders .first{
+	margin-right:24px;
+}
+.ui-slider{
+	border-radius:8px;
+}
+.ui-sliders-item{
+	float:left;
+	width:478px;
+	height:206px;
+	overflow:hidden;
+	zoom:1;
+}
+.ui-sliders .ui-slider{
+	height:100%;
+}
+.ui-news-slider{
+	width:478px;
+}
+/*  */
+
+.title-news{
+	position:relative;
+	width:957px;
+	height:51px;
+	margin-bottom:10px;
+	zoom:1;
+}
+.title-news s{
+	background:url(/inc/pics/news-sprites.png) 0 0 no-repeat;
+}
+
+.ui-news{
+
+}
+.ui-news-class{
+	float:left;
+	width:205px;
+}
+.ui-news-cnt{
+	float:left;
+	width:750px;
+}
+
+.ui-news-box,
+.ui-news-box-top,
+.ui-news-box-btm{
+	width:750px;
+	min-height:260px;
+	_height:260px;/* 450 */
+	background:url(/inc/pics/bg-radius-news.png) 0 0 no-repeat;
+}
+.ui-news-box{
+	margin-bottom:51px;
+	background-position:-756px 0;
+	background-repeat:repeat-y;
+}
+.ui-news-box-top{
+	background-position:0 0;
+}
+.ui-news-box-btm{
+	background-position:-1510px bottom;
+}
+
+.news-body{
+	padding:30px 26px;
+}
+.btn-news-home,
+.btn-news-class{	
+	position:relative;
+	display:block;
+	width:178px;
+	height:45px;
+	margin:0 auto 10px;
+	text-align:center;
+	zoom:1;
+}
+.btn-news-home{
+	margin-top:15px;
+}
+.btn-news-class s,
+.btn-news-home s{
+	background:url(/inc/pics/news-sprites.png) -999em -999em no-repeat;
+}
+.btn-news-class s{
+	background-position:0 -66px;
+}
+.btn-news-home s{
+	background-position:-182px -249px;
+	cursor:pointer;
+}
+.btn-news-home:hover s{
+	background-position:0 -249px;
+}
+
+.ui-news-class{
+}
+.ui-news-ul{
+	width:177px;
+	margin:0 auto;
+	zoom:1;
+}
+.ui-news-sub-ul{
+	margin-top:8px;
+	zoom:1;
+}
+.ui-news-class .ui-nav-item{
+	display:block;
+	float:none;
+	height:19px;
+	margin-bottom:8px;
+	_margin-bottom:2px;
+	text-align:center;
+	zoom:1;
+}
+.ui-news-class .ui-nav-link{
+	display:inline-block;
+	*display:inline;
+	height:19px;
+	background:url(/inc/pics/news-sprites.png) -478px -66px no-repeat;
+	zoom:1;
+}
+.ui-news-class .ui-nav-link:hover{
+	text-decoration:none;
+	background-position:-478px -89px;
+}
+.ui-news-class .ui-nav-text{
+	display:block;
+	height:19px;
+	line-height:19px;
+	background:url(/inc/pics/news-sprites.png) right -66px no-repeat;
+	_float:left;
+}
+.ui-news-class .ui-nav-link:hover .ui-nav-text{
+	background-position:right -89px;
+	cursor:pointer;
+}
+.news-title{
+	position:relative;
+	height:50px;
+	margin-bottom:30px;
+	line-height:50px;
+	padding-left:50px;
+	padding-bottom:10px;
+	font-weight:600;
+	border-bottom:1px solid #eaeaea;
+	zoom:1;
+}
+.news-title s{
+	width:45px;
+	background:url(/inc/pics/news-sprites.png) -205px -66px no-repeat;
+}
+.news-time{
+	padding:15px 0 5px;
+	margin-bottom:10px;
+	text-align:right;
+	border-bottom:1px solid #eaeaea;
+}
+.news-logo-mini{
+	float:right;
+	display:inline-block;
+	*display:inline;
+	width:204px;
+	height:42px;
+	background:url(/inc/pics/news-sprites.png) -269px -65px no-repeat;
+	zoom:1;
+}
+.news-wrapper .ui-page{
+	margin-bottom:30px;
+}
+
+/* help 页面 */
+.help-wrapper .news-content{
+	/* min-height:815px;
+	min-height:725px\0;
+	_height:815px; */
+	padding:10px 40px;
+}
+.help-wrapper .news-content img{
+	max-width:618px;
+	_width: expression((function(s){if(s.width > 618)s.width=618;return;})(this));
+}
+.title-help{
+	position:relative;
+	width:957px;
+	height:71px;
+	margin:0 auto 8px;
+	zoom:1;
+}
+.title-help s{
+	background:url(/inc/pics/news-sprites.png) 0 -171px no-repeat;
+}
+.title-wave{
+	margin-bottom:50px;
+}
+.title-news-class{
+	width:125px;
+	height:20px;
+	margin:0 auto;
+	padding-bottom:10px;
+	text-align:center;
+	font:600 14px/1.7 '微软雅黑';
+	background:url(/inc/pics/news-sprites.png) 0 -116px no-repeat;
+}
+.help-wrapper .ui-news-class .ui-nav-text{
+	font:500 14px/19px '微软雅黑';
+}
+.ui-news-class .ui-nav-text{
+	margin:0;
+}
+.help-wrapper .new-title-text{
+	font-size:14px;
+}
+.link_navi {font-size: 9pt;	color: #494949;	text-decoration: none;	font-weight: normal;}
+a.link_navi:hover {  color: #494949; text-decoration: underline}
