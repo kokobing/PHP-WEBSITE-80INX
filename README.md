@@ -38,11 +38,11 @@ PHP-WEBSITE-80INX 一个完整的婚纱摄影网站，包括前台后台，因�
  *  安装盘：\AppServ\Apache2.2\conf\extra\httpd-vhosts.conf 设定虚拟主机信息,追加
  
 	\<VirtualHost *:80\>  
-		ServerAdmin webmaster@dummy-host2.x
-		DocumentRoot "C:\AppServ\www\website\www"
-		ServerName www.website.com
-		ErrorLog "logs/dummy-host2.x-error.log"
-		CustomLog "logs/dummy-host2.x-access.log" common
+		ServerAdmin webmaster@dummy-host2.x  
+		DocumentRoot "C:\AppServ\www\website\www"  
+		ServerName www.website.com  
+		ErrorLog "logs/dummy-host2.x-error.log"  
+		CustomLog "logs/dummy-host2.x-access.log" common  
 	\</VirtualHost\>  
 	
 
