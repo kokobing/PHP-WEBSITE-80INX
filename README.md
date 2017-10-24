@@ -44,13 +44,13 @@ PHP-WEBSITE-80INX 一个完整的婚纱摄影网站，包括前台后台，因�
  * You appserv httpd-vhosts.conf set  
 	   安装盘：\AppServ\Apache2.2\conf\extra\httpd-vhosts.conf 设定虚拟主机信息,追加如下  
  
-	`\<VirtualHost *:80\> `   
+	`<VirtualHost *:80> `   
 		`ServerAdmin webmaster@dummy-host2.x  `  
 		`DocumentRoot "C:\AppServ\www\website\www"  `  
 		`ServerName www.website.com  `  
 		`ErrorLog "logs/dummy-host2.x-error.log"  `  
 		`CustomLog "logs/dummy-host2.x-access.log" common  `  
-	`\</VirtualHost\>  `  
+	`</VirtualHost>  `  
 	
 
  * 域名重定向，追加如下  
