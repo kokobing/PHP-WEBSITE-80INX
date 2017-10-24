@@ -11,7 +11,7 @@ PHP-WEBSITE-80INX 一个完整的婚纱摄影网站，包括前台后台，因�
 
 安装调试
 ===========================
- * 导入数据库SQL Phpmyadim中新建website数据库，并导入website.sql，注意新建数据库排序规则为utf8_general_ci  
+ * 导入数据库SQL文件 PHPMYADMIN中新建website数据库，并导入website.sql，注意新建数据库排序规则为utf8_general_ci  
  
  * 配置前台和后台数据库连接信息  
  	前台文件路径 /www/inc/config.php  
